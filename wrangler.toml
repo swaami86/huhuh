@@ -1,0 +1,12 @@
+name = "ai-image-generator-api"
+main = "_worker.js"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Environment variables (non-sensitive)
+ENVIRONMENT = "production"
+
+[dev]
+port = 5000
+ip = "0.0.0.0"
